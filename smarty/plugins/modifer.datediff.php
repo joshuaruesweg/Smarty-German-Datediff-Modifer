@@ -28,7 +28,7 @@ function smarty_modifier_datediff($string) {
 	
 	// <= zwei Minuten 
 	if ($diff < 60) {
-		return "vor einen Moment"; 
+		return "vor einem Moment"; 
 	}
 	
 	if ($diff <= 120) {
