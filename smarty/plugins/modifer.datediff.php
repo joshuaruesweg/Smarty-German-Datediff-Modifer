@@ -83,7 +83,7 @@ function smarty_modifier_datediff($string) {
 			}
 		};
 		
-		return $date(date('D', $timestamp)) .", ". date('H:i', $timestamp);; 
+		return $date(date('D', $timestamp)) .", ". date('H:i', $timestamp);
 	}
 	
 	if ($diff < 3600 * 24 * 364) {
